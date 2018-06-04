@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-size: 1.1em;
 }
 
 body{
@@ -24,14 +25,19 @@ label{
     margin: 5px;
 }
 
-.items{
+.items,
+.items:focus,
+input[type='text']{
     width: 30em;
     margin: 5px;
+    outline: none;
+    border-radius: 20px;
+    padding: 1px 10px;
 }
 
 .circle{
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 80px;
     border-radius: 50%;
     display: inline-block;
     margin: 5px;
@@ -43,10 +49,10 @@ label{
 }
 
 .green{
-    background-color: green;
+    background-color: forestgreen;
     opacity: .25;
 }
 
 .opaque{
-    opacity: 1;
+    opacity: .9;
 }
